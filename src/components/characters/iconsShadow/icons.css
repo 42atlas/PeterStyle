@@ -1,0 +1,77 @@
+:root {
+  --pixel-size: 9;
+}
+
+body {
+  background: #ffffff;
+}
+
+.pixelart {
+  image-rendering: pixelated;
+}
+
+/*keys*/
+
+.Icon_keys {
+  width: calc(25px * var(--pixel-size));
+  height: calc(25px * var(--pixel-size));
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  /*  background: red; */
+}
+
+.Icon_spritesheet_keys {
+  /*  animation: moveSpritesheetinnkeeper 0.1s steps(1) infinite; */
+  width: calc(400px * var(--pixel-size));
+  position: absolute;
+}
+
+.keys {
+  left: calc(-250px * var(--pixel-size));
+  top: calc(-276px * var(--pixel-size));
+}
+
+/*map*/
+
+.Icon_map {
+  width: calc(25px * var(--pixel-size));
+  height: calc(25px * var(--pixel-size));
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  /* background: red; */
+}
+
+.Icon_spritesheet_map {
+  /*  animation: moveSpritesheetinnkeeper 0.1s steps(1) infinite; */
+  width: calc(400px * var(--pixel-size));
+  position: absolute;
+}
+
+.map {
+  left: calc(-301px * var(--pixel-size));
+  top: calc(-326px * var(--pixel-size));
+}
+
+/*ocarina*/
+
+.Icon_ocarina {
+  width: calc(60px * var(--pixel-size));
+  height: calc(60px * var(--pixel-size));
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  /* background: red; */
+}
+
+.Icon_spritesheet_ocarina {
+  /*  animation: moveSpritesheetinnkeeper 0.1s steps(1) infinite; */
+  width: calc(900px * var(--pixel-size));
+  position: absolute;
+}
+
+.ocarina {
+  left: calc(-280px * var(--pixel-size));
+  top: calc(-618px * var(--pixel-size));
+}
