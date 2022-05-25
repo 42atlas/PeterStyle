@@ -1,10 +1,12 @@
-import React, { useRef, useState } from "react";
-import emailjs from "@emailjs/browser";
 import "../style/main.css";
 import "nes.css/css/nes.min.css";
-import { useNavigate } from "react-router-dom";
-import ErrorMessage from "./ErrorMessage/ErrorMessage";
+
+import emailjs from "@emailjs/browser";
+import React, {useRef, useState} from "react";
+import {useNavigate} from "react-router-dom";
+
 import MapIcon from "./characters/iconsShadow/mapicon";
+import ErrorMessage from "./ErrorMessage/ErrorMessage";
 
 const Contact = () => {
   const [error, setError] = useState(false);

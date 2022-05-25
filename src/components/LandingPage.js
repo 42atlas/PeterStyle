@@ -1,8 +1,10 @@
-import React from "react";
-import Player from "./Player";
-import ButtonContact from "./ButtonContact";
 import "../style/main.css";
 import "nes.css/css/nes.min.css";
+
+import React from "react";
+
+import ButtonContact from "./ButtonContact";
+import Player from "./Player";
 
 function LandingPage() {
   return (

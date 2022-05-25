@@ -1,7 +1,8 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import "../style/main.css";
 import "nes.css/css/nes.min.css";
+
+import React from "react";
+import {Link} from "react-router-dom";
 
 const ButtonMailto = () => {
   return (

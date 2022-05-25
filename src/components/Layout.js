@@ -1,11 +1,12 @@
-import React from "react";
 import "../style/main.css";
 import "nes.css/css/nes.min.css";
 
-import { NavLink, Outlet } from "react-router-dom";
+import React from "react";
+import CookieBanner from "react-cookie-banner";
+import {NavLink, Outlet} from "react-router-dom";
+
 import ButtonContact from "./ButtonContact";
 import Player from "./Player";
-import CookieBanner from "react-cookie-banner";
 
 const Layout = () => {
   return (
