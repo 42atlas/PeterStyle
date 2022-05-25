@@ -7,22 +7,11 @@ import "nes.css/css/nes.min.css";
 function LandingPage() {
   return (
     <div className="main-container">
-      <br />
-      <br />
-      <br />
-      <br />
-      <div className="App">
-        <img src={require("../images/PETERFINAL.gif")} alt="PETER STYLE" />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <Player />
-        <br />
-        <br />
-        <br />
-        <ButtonContact />
+      <div className="nes-container is-centered with-title" id="medium">
+        <h3 className="title"> Peter Style </h3>
+        <div className="internal-container">
+          <img src={require("../images/PETERFINAL.gif")} alt="PETER STYLE" />
+        </div>
       </div>
     </div>
   );

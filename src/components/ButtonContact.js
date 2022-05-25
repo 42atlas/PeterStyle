@@ -13,7 +13,7 @@ const ButtonMailto = () => {
                 e.preventDefault();
             }} */
       >
-        {"© raffaelli.studio"}
+        {"© raffaelli.studio 2022"}
       </Link>
     </div>
   );
