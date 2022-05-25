@@ -3,7 +3,7 @@ import "nes.css/css/nes.min.css";
 
 import React from "react";
 import CookieBanner from "react-cookie-banner";
-import {NavLink, Outlet} from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 import ButtonContact from "./ButtonContact";
 import Player from "./Player";

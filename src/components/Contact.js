@@ -2,8 +2,8 @@ import "../style/main.css";
 import "nes.css/css/nes.min.css";
 
 import emailjs from "@emailjs/browser";
-import React, {useRef, useState} from "react";
-import {useNavigate} from "react-router-dom";
+import React, { useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 import MapIcon from "./characters/iconsShadow/mapicon";
 import ErrorMessage from "./ErrorMessage/ErrorMessage";

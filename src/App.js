@@ -2,7 +2,7 @@ import "./App.css";
 import "./style/main.css";
 import "nes.css/css/nes.min.css";
 
-import {Route, Routes} from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 import Contact from "./components/Contact.js";
 import Impressum from "./components/Impressum.js";
@@ -14,15 +14,12 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
-        <Route index element={
-<LandingPage />} />
-        <Route path="impressum" element={<Impressum />
-}
-/>
+        <Route index element={<LandingPage />} />
+        <Route path="impressum" element={<Impressum />} />
         <Route path="/contact " element={<Contact />} />
-    < Route path = "*" element = {<NotFound />} />
-      </Route > <
-                                 /Routes>
+        <Route path="*" element={<NotFound />} />
+      </Route>{" "}
+    </Routes>
   );
 }
 
