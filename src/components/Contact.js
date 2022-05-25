@@ -70,7 +70,7 @@ const Contact = () => {
               type="text"
               id="name"
               className="nes-input"
-              placeholder="Seppia"
+              placeholder="Peter"
               name="user_name"
               value={name}
               onChange={handleChange}
@@ -83,7 +83,7 @@ const Contact = () => {
               type="email"
               id="email"
               className="nes-input"
-              placeholder="ifno@pointless.games"
+              placeholder="peter@peter.pt"
               name="user_email"
               value={email}
               onChange={handleChange}
